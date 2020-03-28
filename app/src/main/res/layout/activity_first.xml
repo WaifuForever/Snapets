@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dog6"
+    tools:context=".view.login.FirstActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Snapets"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="cursive"
+            android:textSize="58dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="80dp"
+                android:layout_marginBottom="25dp"
+                android:background="#009688"
+                android:onClick="login_view"
+                android:text="Entrar"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btn_register"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="25dp"
+                android:layout_gravity="bottom"
+                android:background="#FFFFFF"
+                android:onClick="register_view"
+                android:text="Registrar"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

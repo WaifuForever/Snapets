@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "716505285186",
+    "firebase_url": "https://snapet-8a3ba.firebaseio.com",
+    "project_id": "snapet-8a3ba",
+    "storage_bucket": "snapet-8a3ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716505285186:android:4e0120f9e7175ddafda3db",
+        "android_client_info": {
+          "package_name": "com.example.snapets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716505285186-ifqd9mersc353oi88657lnljp5uab90e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIoZR19pPYUxUYWqv5vQ8YcfIeKDEQXCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716505285186-ifqd9mersc353oi88657lnljp5uab90e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
